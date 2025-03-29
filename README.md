@@ -20,15 +20,21 @@ There are three Python files which you will modify in this repository to complet
 * main.py
 * writeup.md
 
-The files with the prefix `test_` (i.e. `test_clean.py`, `test_metrics.py`, and `test_run.py`) are intended for you to test your code to ensure that all project requirements are complete. **Do not modify the code in these files. Otherwise, you will not be able to check that your code is functioning correctly.**. 
+The files with the prefix `test_` (i.e. `test_clean.py`, `test_metrics.py`, and `test_run.py`) are intended for you to 
+test your code to ensure that all project requirements are complete. 
+**Do not modify the code in these files. Otherwise, you will not be able to check that your code is functioning correctly.**. 
 
-Once you've completed the coding portion of this project and ensured that all output is correct, you will then provide a writeup in the file ` writeup.md`, where you will answer analytical questions on the data you've analyzed.
+Once you've completed the coding portion of this project and ensured that all output is correct, 
+you will then provide a writeup in the file ` writeup.md`, where you will answer analytical questions on the data you've analyzed.
 
 Further details and usage of each file are listed below: 
 
 **cleaner.py**
 
-This module contains a function you will implement to clean a list of data. `filter_nondigits` will take in a list of strings and filter out all strings that include non-digit characters. Remove the new-line character (`\n`) before performing this digit check! After validating that a string is a valid digit, you will convert this element into an integer and append it into a new list, which will be returned when your function ends.
+This module contains a function you will implement to clean a list of data. 
+`filter_nondigits` will take in a list of strings and filter out all strings that include non-digit characters. 
+Remove the new-line character (`\n`) before performing this digit check! After validating that a string is a valid digit, 
+you will convert this element into an integer and append it into a new list, which will be returned when your function ends.
 
 To test this module open a terminal in VSCode. Go to the Terminal tab in the top menu and select "New Terminal." Then type the following command:
 
@@ -40,9 +46,11 @@ We recommend working on this module **first**. Be sure to write up a docstring w
 
 **metrics.py**
 
-This module contains three functions that you will implement to calculate various descriptive statistics on your data. For example, the `average` function, you will calculate the average heart value of all input data.
+This module contains three functions that you will implement to calculate various descriptive statistics on your data. 
+For example, the `average` function, you will calculate the average heart value of all input data.
 
-You will apply this concept to calculate the maximum, variance, and standard deviation (do you recall what ties variance and standard deviation together?). As these functions will only be called **after** you've cleaned and removed outliers, you can expect your list of data to be integers. Be sure to round all floating point values to 2 decimal points!
+You will apply this concept to calculate the maximum, variance, and standard deviation (do you recall what ties variance and standard deviation together?). 
+As these functions will only be called **after** you've cleaned and removed outliers, you can expect your list of data to be integers. Be sure to round all floating point values to 2 decimal points!
 
 To test this module on all possible inputs, you will run the following command in your terminal:
 
