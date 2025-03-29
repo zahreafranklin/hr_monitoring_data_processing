@@ -21,4 +21,4 @@ During exercise, we expect the maximum heart rate of a phase to be **higher** th
 
 During regular periods of awake activity, we expect the average heart rate of a phase to be relatively **lower** than the average heart rate of other phases, but we also expect standard deviation to be **higher**. In which phase do we notice this trend?
 
-[ This trend would be noticed in **Phase 3** since it demonstrates the expected pattern of a relatively lower average heart rate when compared to the other phases but has a higher standard deviation of **11.0 bpm** when compared to the other phases except for Phase 2 where exercising was taking place. ]
+[ This trend would be noticed in **Phase 3** since it demonstrates the expected pattern of a relatively lower average heart rate of **60.65** when compared to the other phases but has a higher standard deviation of **11.0 bpm** when compared to the other phases except for Phase 2 where exercising was taking place.However, these findings correspond with the individual being awake and active throughout the day. ]
